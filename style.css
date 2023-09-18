@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:whitesmoke;
+}
+
+#butonlar {
+    margin: auto;
+    height: fit-content;
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    align-items:center;
+    gap:1px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+button {
+   
+    margin-top: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+
+}
+
+h1 {
+    margin-top:50px !important;
+    font-size: 60px;
+}
+
+p {
+    margin-top:15px !important;
+    font-size:15px;
+}
+
+h1, p {
+    margin: auto;
+    letter-spacing: 5px;
+}
+
+#ilgosterici {
+    height:200px;
+    width: 400px;
+    background-color: black;
+    color: lightcyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px black;
+    border-radius: 4px;
+ 
+}
+
+h3 {
+    font-size: 50px;
+  
+}
+
+img.cross {
+    height:15px;
+    width: 15px;
+    position: absolute;
+    top:7px;
+    right:7px;
+    cursor: pointer;
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+img.cross:hover {
+    transform: scale(1.1);
+    transition: 100ms ease;
+}
+
+img.cross:active {
+    transform: scale(0.9);
+}
+
+p#coded {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+}
