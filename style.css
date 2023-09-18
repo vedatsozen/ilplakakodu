@@ -85,10 +85,9 @@ img.cross:active {
 }
 
 p#coded {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translate(-50%);
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
 }
 
 @media only screen and (max-width:600px) {
@@ -109,7 +108,9 @@ p#coded {
 
 
     p#coded {
-        display: none;
+        margin: auto;
+        margin-top: 5px;
+        text-align: center;
     }
 
     #ilgosterici {
